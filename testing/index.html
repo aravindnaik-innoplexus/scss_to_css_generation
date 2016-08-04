@@ -1,0 +1,59 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Testing</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="test.css" />
+  <!-- <link rel="stylesheet" href="table.css"/> -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+
+
+</head>
+<body>
+
+              <h2>Testing</h2>
+              <form >
+              <div class="row" style="padding:">
+                <div class="col-xs-3">
+                  <label for="input-h1">h1 color</label>
+                  <input class="form-control" id="h1color" name="h1" type="text" value="green" data-var="h1-color"/>
+                  <label for="input-h1">h1 size</label>
+                  <input class="form-control" id="h1size" name="h1" type="text" value="50px" data-var="h1-size"/>
+                </div>
+                <div class="col-xs-3">
+                  <label for="input-h2">h2 color</label>
+                  <input class="form-control" id="h2color" name="h2" type="text" value="maroon" data-var="h2-color"/>
+                  <label for="input-h2">h2 size</label>
+                  <input class="form-control" id="h2size" name="h2" type="text" value="40px" data-var="h2-size"/>
+
+                </div>
+                <div class="col-xs-3">
+                  <label for="input-h3">h3 color</label>
+                  <input class="form-control" id="h3color" name="h3" type="text" value="blue" data-var="h3-color"/>
+                  <label for="input-h3">h3 size</label>
+                  <input class="form-control" id="h3size" name="h3" type="text" value="30px" data-var="h3-size"/>
+
+                </div>
+              </div>
+                </form>
+
+                <div class="container" >
+                       <h1 class="main">Example using Import</h1>
+                       <h2 class="side">Import the files in SASS</h2>
+                       <ul class="text">
+                             	<li>Red</li>
+                             	<li>Green</li>
+                        </ul>
+                </div>
+
+              <div class="bs-customize-download" style="margin-left:500px;padding:20px;">
+                  <button type="submit" id="btn-compile" class="btn btn-lg " onclick="compile()" >Compile</button>
+                  <!-- <body onLoad="WriteToFile()">  -->
+                </div>
+
+
+
+      </body>
+</html>
